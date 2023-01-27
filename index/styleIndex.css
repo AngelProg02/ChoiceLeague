@@ -1,0 +1,121 @@
+/*Resolución ordenador*/
+@media (min-width: 768px){
+ 
+  body{
+    background: url("/photos/WallPaperClashRoyale.png");
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  /*Se utiliza para añadir letras que no están implementadas*/
+  @font-face {
+    font-family: "LetraBM";
+    src: url(/letters/You\ Blockhead.ttf);
+  }
+
+  .banner > img {
+    width: 100%;
+    height: 100%;
+  }
+  /*Diseño barra de marcadores*/
+  #bookmarksBar {
+    background: #fdd15a;
+    border-bottom: 0.5em solid #fdd15a;
+    text-align: center;
+  }
+  #bookmarksBar a {
+    border: 0em;
+    background-color: #fdd15a;
+    font-family: "LetraBM";
+    margin-top: 1em;
+    text-decoration: none;
+    color: black;
+  }
+  /*"Butterfly"*/
+  #message {
+    font-size: 7em;
+    font-family: "LetraBM";
+    color: #fdd15a;
+    text-align: center;
+    margin-top: 0.1em;
+  }
+  #flex-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #pekka{
+  max-width: 15em;
+  }
+  #minipekka{
+  max-width: 10em;
+  }
+  #bowler{
+    visibility: collapse;
+    max-width: 0px;
+  }
+  
+}
+/*--------------------------------------------------------------------*/
+/*Mobile - iPhone X*/
+@media(max-width:767px){
+  #bowler{
+   visibility: visible;
+   max-width: 95%;
+   max-height: 95%;
+ }
+ 
+  #flex-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #pekka,#minipekka{
+   visibility: collapse;
+   max-width: 0px;
+  }
+ 
+  body {
+    background: url("/photos/WallPaperClashRoyale.png");
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+  }
+  @font-face {
+    font-family: "LetraBM";
+    src: url(/letters/You\ Blockhead.ttf);
+  }
+  .banner > img {
+    width: 100%;
+    height: 100%;
+  }
+  /*Diseño barra de marcadores*/
+  #bookmarksBar {
+    background: #fdd15a;
+    border-bottom: 0.5em solid #fdd15a;
+    text-align: center;
+    display: grid;
+    max-width: 105%;
+    max-height: 100%;
+
+  }
+  #bookmarksBar a {
+    border: 0em;
+    background-color: #fdd15a;
+    font-family: "LetraBM";
+    margin-top: 1em;
+    text-decoration: none;
+    color: black;
+  }
+    /*"Butterfly"*/
+    #message {
+      font-size: 2em;
+      font-family: "LetraBM";
+      color: #fdd15a;
+      text-align: center;
+      margin-top: 0.5em;
+    }
+  }
+

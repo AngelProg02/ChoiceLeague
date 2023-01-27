@@ -1,0 +1,86 @@
+@media (min-width: 768px){
+    @font-face {
+        font-family: "LetraBM";
+        src: url(/letters/You\ Blockhead.ttf);
+      }
+      input[type="text"],textarea{
+        background-color: #BDBDBD;
+      }
+    body {
+        background-image: url(/photos/background_register.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-family: LetraBM;
+        color: white;
+    }
+    form{
+      padding: 12em;
+      text-align: center;
+      width: 100%;
+      max-width: 10em;
+      margin-left:auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px;
+      border-style: ridge;
+    }
+    form button{
+        padding: .6em 1em;
+        border:none;
+        cursor: pointer;
+        box-shadow: none;
+        background: none;
+      }
+      
+     form img{
+        max-width: 100%;
+      }
+
+}
+/*-----------------------------------------------------------*/
+/*MOBILE SCREEN*/
+@media (max-width: 767px){
+    @font-face {
+        font-family: "LetraBM";
+        src: url(/letters/You\ Blockhead.ttf);
+      }
+      input[type="text"],textarea{
+        background-color: #BDBDBD;
+      }
+    body {
+        background-image: url(/photos/background_register.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-family: LetraBM;
+        color: white;
+    }
+    form{
+      padding: 5em;
+      text-align: center;
+      max-width: 10em;
+      margin-left:auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px;
+      border-style: ridge;
+    }
+    form button{
+        padding: .6em 1em;
+        border:none;
+        cursor: pointer;
+        box-shadow: none;
+        background: none;
+      }
+      
+     form img{
+        max-width: 100%;
+      }
+  }

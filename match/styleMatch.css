@@ -1,0 +1,82 @@
+@media (min-width: 768px){
+    body {
+      background: url("/photos/WallPaperClashRoyale.png");
+      width: 100%;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    /*Se utiliza para añadir letras que no están implementadas*/
+    @font-face {
+      font-family: "LetraBM";
+      src: url(/letters/You\ Blockhead.ttf);
+    }
+    .banner > img {
+      width: 100%;
+      height: 100%;
+    }
+    /*Diseño barra de marcadores*/
+    #bookmarksBar {
+      background: #fdd15a;
+      border-bottom: 0.5em solid #fdd15a;
+      text-align: center;
+    }
+    #bookmarksBar a {
+      border: 0em;
+      background-color: #fdd15a;
+      font-family: "LetraBM";
+      margin-top: 1em;
+      text-decoration: none;
+      color: black;
+    }
+}
+/*--------------------------------------------------------------------*/
+/*Mobile - iPhone X*/
+@media(max-width:767px){
+  #bowler{
+   visibility: visible;
+   padding-top: 0px;
+   max-width: 100%;
+   max-height: 100%;
+  }
+  #pekka,#minipekka{
+   visibility: collapse;
+  }
+ 
+  body {
+    background: url("/photos/WallPaperClashRoyale.png");
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0em;
+    position: fixed;
+    overflow-y: scroll;
+    width: 100%;
+  }
+  @font-face {
+    font-family: "LetraBM";
+    src: url(/letters/You\ Blockhead.ttf);
+  }
+  .banner > img {
+    width: 100%;
+    height: 100%;
+  }
+  /*Diseño barra de marcadores*/
+  #bookmarksBar {
+    background: #fdd15a;
+    border-bottom: 0.5em solid #fdd15a;
+    text-align: center;
+    display: grid;
+    max-width: 105%;
+    max-height: 100%;
+
+  }
+  #bookmarksBar a {
+    border: 0em;
+    background-color: #fdd15a;
+    font-family: "LetraBM";
+    margin-top: 1em;
+    text-decoration: none;
+    color: black;
+  }
+
+}
+
